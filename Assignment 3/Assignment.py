@@ -14,7 +14,7 @@ time.sleep(3)
 # search_bar = driver.find_element_by_id("id","twotabsearchtextbox") old syntax
 search_bar = driver.find_element("xpath","/html/body/ytd-app/div[1]/div/ytd-masthead/div[4]/div[2]/ytd-searchbox/form/div[1]/div[1]/input")
 search_bar.send_keys("friends")
-
+cc
 # Submitting the search query
 search_bar.send_keys(Keys.RETURN)
 
